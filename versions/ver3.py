@@ -8,7 +8,9 @@ def replace_selected_digraphs(input_file, output_file=None):
         'ch': 'h',
         'Ch': 'H',
         'rz': 'ż',
-        'Rz': 'Ż'
+        'Rz': 'Ż',
+        'ó': 'u',
+        'Ó': 'U'
     }
     
     # Ask user which replacements to perform
